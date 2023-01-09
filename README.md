@@ -60,3 +60,16 @@ Next, open [this](https://docs.github.com/en/pages/setting-up-a-github-pages-sit
 
 Another approach is to have a look at my site [mibrs](https://github.com/mibrs/mibrs.github.io), the repository is using the same theme. Just have a look how the posts and assets look like, copy and paste content as you please and then start to modify your own site as you like.
 
+### If YOu Want to Know More ...
+
+[This Video](https://youtu.be/iWowJBRMtpc) explains you how install Jekyll on an Apple computer to develop a website locally before you are uploading the site to a webserver for public viewing. The second part of the video explains many useful concepts of Jekyll.
+
+- How to configure the basic settings as name of your site, links and categories in _config.yml
+- How the files in the *_include* folder allow you to define the appearance of certain blocks and links (footer, header, head, social media)
+- How the files in the *_layout* folder allow you to define the appearance of posts, pages.
+- The folder *_posts* contains your actual posts. Each post document has a *Front Matter* at the beginning that allows you to enter date, title, categories and other information you have set up in the configuration. These information allow you to arrange and find your posts. In order for the post to be identifyable, you must also respect a certain naming convention for the file, it should only contain letters and numbers and the underscore, and begin with the date in the form YY-MM-DD (Year with two numbers, MM with two numbers, DD day with the two numbers, ex. 22-01-09 is January 9th, 2022). The file name must close with *.md*. A valid name would be 22-01-09-This-is-a-post.md.
+- In the *_sass* folder you find the definition of CSS properties to control the appearance of the site. They are linked with the content pages using CSS class selectors.
+
+You will always need to write posts according the specifications above. Each post needs to start with the Front Matter, afterwards you will mostly use Markdown as a simple way to enter your content. You can always add HTML tags when required, or refer to class selectors when necessary.
+
+These information should give you a starting point if you want to discover Jekyll in more detail and customize its appearance.
