@@ -1,4 +1,4 @@
-# Session 7 - GitHub Pages with Jekyll, more MAX8 with MIDI and introduction to sound synthesis with BEAP
+# Session 11 - GitHub Pages with Jekyll
 
 ## How are files stored on a computer?
 
@@ -57,23 +57,4 @@ Now you need to wait for some time (seconds to minutes) before the changes are u
 Next, open [this](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/adding-content-to-your-github-pages-site-using-jekyll#about-content-in-jekyll-sites) page and scroll down to **Adding a new post to your site**. Follow the instructions until step 8. Then choose for step 9 ```Commit directly to the main branch```. You are done! Give GitHub a few seconds to update your site, then check on ```YourUserName.github.io``` to see your website and open the post.
 
 Another approach is to have a look at my site [mibrs](https://github.com/mibrs/mibrs.github.io), the repository is using the same theme. Just have a look how the posts and assets look like, copy and paste content as you please and then start to modify your own site as you like.
-
-## Quick introduction to sound amplitudes and pitch/frequency
-[Ableton Learning Synths](https://learningsynths.ableton.com/) is a website that explains the basics of sound synthesise in an interactive way. The key properties of sound you should know about are
-- amplitude
-- pitch and frequency, and 
-- envelope. 
-They are explained on this site. So, go there, get to know the meaning of the four key terms and then come back here and try out the patches. Just clone the repository, unpack its content and identify the patches (extension maxpat).
-
-## Some more MAX patches with MIDI
-You find several starter patches that you can try out and modify. Start with the patches containing MAX in their name. You may use Audacity to record one session using one of the patches. 
-
-## Introduction to BEAP, and some patches
-BEAP is a library of modules that make audio synthesis easier. Each module is built with many MAX and MSP objects, but the complexity is hidden and you only see an easy to use interface. 
-
-Have a look at [this video](https://youtu.be/RhsQLUFLOAg) to get an idea what you can do with BEAP.
-
-![BEAP Video 1](/media/221122BEAP1.png) 
-
-When implementing the patch shown on the video, replace the ```MIDI IN``` module with a ```Keyboard``` module, you find it with BEAP/Inputs. For the outlets, hover over them with the mouse and their names and a short description will show up.
 
