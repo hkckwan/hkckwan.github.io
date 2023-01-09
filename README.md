@@ -58,7 +58,7 @@ Now you need to wait for some time (seconds to minutes) before the changes are u
 ### Step 3 - Create your first post
 Next, open [this](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/adding-content-to-your-github-pages-site-using-jekyll#about-content-in-jekyll-sites) page and scroll down to **Adding a new post to your site**. Follow the instructions until step 8. Then choose for step 9 ```Commit directly to the main branch```. You are done! Give GitHub a few seconds to update your site, then check on ```YourUserName.github.io``` to see your website and open the post.
 
-Another approach is to have a look at my site [mibrs](https://github.com/mibrs/mibrs.github.io), the repository is using the same theme. Just have a look how the posts and assets look like, copy and paste content as you please and then start to modify your own site as you like.
+Another approach is to have a look at my site [mibrs](https://github.com/mibrs/mibrs.github.io), the repository is using the same theme. Just have a look how the posts and assets look like, copy and paste content as you please and then start to modify your own site as you like. Furthermore, I left some content from the Minima theme there (readme.md for the repository) as well as a post about Markdown. You can always look "behind the scene" as the repository is public and with editing or RAW you see the source code.
 
 ### If You Want to Know More ...
 
@@ -76,7 +76,7 @@ The video is already older and covers version 2 (As of January 2023 there is ver
 
 ![Jekyll View of all Posts](/media/230109_Jekyll_Overview.png)
 
-Each post document has a *Front Matter* at the beginning that allows you to enter date, title, categories and other information you have set up in the configuration. These information allow you to arrange and find your posts. In order for the post to be identifyable, you must also respect a certain naming convention for the file, it should only contain letters and numbers and hyphens. The name should begin with the date in the form YY-MM-DD (Year with two numbers, MM with two numbers, DD day with the two numbers, ex. 22-01-09 is January 9th, 2022). The file name must end with *.md*. A valid name would be *22-01-09-This-is-a-post.md*.
+- Each post document has a *Front Matter* at the beginning that allows you to enter date, title, categories and other information you have set up in the configuration. These information allow you to arrange and find your posts. In order for the post to be identifyable, you must also respect a certain naming convention for the file, it should only contain letters and numbers and hyphens. The name should begin with the date in the form YY-MM-DD (Year with two numbers, MM with two numbers, DD day with the two numbers, ex. 22-01-09 is January 9th, 2022). The file name must end with *.md*. A valid name would be *22-01-09-This-is-a-post.md*.
 
 ![Post with Front Matter and HTML](/media/230109_Jekyll_Post.png)
 
