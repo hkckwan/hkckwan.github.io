@@ -1,3 +1,5 @@
+*Work in Progress*
+
 # Session 11 - GitHub Pages with Jekyll
 
 ## How are files stored on a computer?
