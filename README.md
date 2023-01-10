@@ -39,7 +39,7 @@ Just open the repository containing your (old) website and then follow steps hig
 
 ![Rename repository](/media/221122RenameGhRepo.png)
 
-**IMPORTANT:** Your old website is not lost, you can still access it with the URL ```https://github.com/YourUserName/RepositoryName```.
+**IMPORTANT:** Your old website is not lost, you can still access it with the URL ```https://YourUserName.github.io/RepositoryName/```.
 
 ![Access Repo on Web](/media/221122GhAccessRepoOnWeb.png)
 
