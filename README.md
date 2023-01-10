@@ -88,7 +88,7 @@ Next, follow the instructions of the screenshot.
 
 ![How to create a post](/assets/230110_Add_New_Post.md)
 
-Don't forget to Commit your work by entering a short description and clicking on the green Commit button. You are done! Give GitHub a few seconds to update your site, then check on ```YourUserName.github.io``` to see your website and open the post.
+Don't forget to Commit your work by entering a short description and clicking on the green *Commit Changes* button. You are done! Give GitHub a few seconds to update your site, then check on ```YourUserName.github.io``` to see your website and open the post.
 
 Another approach is to have a look at my site [mibrs](https://github.com/mibrs/mibrs.github.io), the repository is using the same theme. Check the posts and assets there, copy and paste content as you please and then start to modify your own site as you like. I left some content from the Minima theme there (readme.md for the repository) as well as a post about Markdown. You can always look "behind the scene" as the repository is public and with editing or RAW you see the source code.
 
@@ -121,7 +121,13 @@ You will always need to write posts according the specifications above. Each pos
 
 These information should give you a starting point if you want to discover Jekyll in more detail and customize its appearance.
 
+#### When your changes do no not appear on your website ...
+
+Sometimes your changes may not appear on your life website. Most likely you have made a mistake somewhere. This is in particular possible when you adapt sensitive data as those in the *_config.yml* file. Jekyll will then fail to build your new website and the site will remain unchanged. But you will receive an email from GitHub with some (cryptic) information on what failed. With a bit of background knowledge you can then identify what caused the problem and rectify it.
+
+![Error Email](/media/230110_Error_Email.png)
+
 
 #### ... about HTML and CSS
 
-As mentioned before, Jekyll is actually built with HTML and CSS. If you want to change the themes used by Jekyll or add some HTML code inside your posts, have a look again at [W3Schools](w3schools.com) to refresh and deepen your knowledge about HTML and CSS.
+As mentioned before, Jekyll is actually built with HTML and CSS. If you want to change the themes used by Jekyll or add some HTML code inside your  posts, have a look again at [W3Schools](w3schools.com) to refresh and deepen your knowledge about HTML and CSS.
