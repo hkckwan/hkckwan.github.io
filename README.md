@@ -2,18 +2,22 @@
 
 # Session 11 - GitHub Pages with Jekyll
 
-## How are files stored on a server or computer?
-Files on a computer are arranged on a computer in folders so that they can be more easily found. Normally you have a complex structure with nested (subfolders inside of folders) folders containing files all along the way. It resembles a tree with branches , only turned upside down. Part of the folder structure (tree) for a webserver you can see below.
+## How files are stored on a computer and how to find them using a path
+Files on a computer are arranged in folders so that they can be more easily found. Normally you have a complex structure with nested (subfolders inside of folders) folders containing files all along the way. It resembles a tree with branches , only turned upside down. Part of the folder structure (tree) for a webserver you can see in this image.
 
 ![Root Directory](/media/230110_Website_File_Structure.png)
 
 The top level folder is called *Root*. The symbol for it is ```/``` on a MAC OS or Linux computer. A computer program that wants to access a file needs to know the path to reach the file, that means all the folders on the way to the file. There are two methods to describe this path, absolute or relative path.
 
-The absolute path starts at the Root and describes all folders on the way to the file you want to reach. So in the image above, if you want to access the file *image2.jpg*, the path would be ```/MEDIA/image2.jpg```.
+The absolute path starts at the Root and describes all folders on the way to the file you want to reach. So in the image above, if you want to access the file *image2.jpg*, the path would be ```/MEDIA/image2.jpg```. All ```/``` slashes after the first one for the Root are only separating one folder name from the other.
 
-The other method describes the path from a location in the tree to your target file. The path would then name all folders you need to traverse from your present location to the target location separated by ```/```.
+The other method with relative path describes the way from your starting location in the tree to your target location. The path would then name all folders you need to traverse from your present location to the target location separated by ```/```.
 
-Each repository in GitHub is also using this type of tree structure. In the example repository for the Jekyll website, the images, sound files are saved in a separate folder named media or assets. In order to access these files from your post file, you need to use proper path so that Jekyll can find your media files. 
+Each repository in GitHub is also using this type of tree structure. In the example repository for the Jekyll website, the images, sound files are saved in a separate folder named media or assets. In order to access these files from your post document, you need to use the proper path so that Jekyll can find your media files. If the webserver cannot find the file, you will see a symbol like the follwing when opening the website with a browser.
+
+![File cannot be found](230110_File_Not_Found.png)
+
+When creating a folder in a repository be aware that GitHub with the web interface does not allow for empty folders. So you will always need to create a file together with your new directory, so you enter in *New File* ```newDirectoryName/readme.md```, even though you do not need the readme.md.
 
 ## Save your old website and setup Jekyll with GitHub Pages
 So far you have created your website using basic HTML (content) and CSS (styling). The code was saved in a file named ```index.html```, and it was saved in a repository named YourUserName.github.io. By default, GitHub will look for such a file in a repository of that name and then load it when you enter the URL ```https.YourUserName.github.io``` in your webbrowser.
