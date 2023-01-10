@@ -1,5 +1,3 @@
-*Work in Progress*
-
 # Session 11 - GitHub Pages with Jekyll
 
 ## How files are stored on a computer and how to find them using a path
