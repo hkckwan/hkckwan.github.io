@@ -39,7 +39,7 @@ Just open the repository containing your (old) website and then follow steps hig
 
 ![Rename repository](/media/221122RenameGhRepo.png)
 
-**IMPORTANT:** Your old website is not lost, you can still access it with the URL ```https:YourUserName.github.io/NewRepositoryName```.
+**IMPORTANT:** Your old website is not lost, you can still access it with the URL ```https://github.com/YourUserName/RepositoryName```.
 
 ![Access Repo on Web](/media/221122GhAccessRepoOnWeb.png)
 
@@ -51,14 +51,14 @@ Now we generate our new website with Jekyll.
 
 #### Step 2.1 Find the repository with your new Jekyll site template.
 
-All the styling inside Jekyll is defined inside themes. We are using the theme minima. [Here](https://github.com/jekyll/minima) you find the basic theme, it may be better to use the theme with some content from our activity that you can find [here](https://github.com/mibrs/minimaGPC).
+All the styling inside Jekyll is defined inside themes. We are using the theme minima. [Here](https://github.com/jekyll/minima) you find the basic theme, it may be better to use the theme with some content from our activity that you can find [here](https://github.com/mibrs/minimaGPC). Click on 
 
 ![Jekyll Minima on GitHub](/media/221122JekyllMinimaRepo.png)
 
 #### Step 2.2 Fork ("copy") the repository with the theme to your own user account and name the repo ```YourUserName.github.io```
 
 Make sure that you are logged into your own GitHub account. Then follow the images to
-1. Create your **Folk** of the repository
+1. Create/make your new **Folk** of the repository
 2. Name it in the form ```YourUserName.github.io```.
 
 **ATTENTION:** User your own UserName instead of ```mbbbraehler``` shown on the screenshot!
@@ -70,7 +70,7 @@ Make sure that you are logged into your own GitHub account. Then follow the imag
 
 #### Step 2.3 Configure GitHub to use Jekyll with your theme
 
-Next, go back and open the new repository, then choose Pages on the left side menu and make the entries as shown. Do not forget to click on ```Save``` once you are finished.
+Next, go back and open the new repository, click on *Settings* in the GitHub menu bar, then choose *Pages* on the left side vetrical menu and make the entries as shown. Click on the button *None* to choose *master*. Do not forget to click on *Save* once you are finished.
 
 ![Configure Gh Pages](/media/221122ConfigureGhPages.png)
 
