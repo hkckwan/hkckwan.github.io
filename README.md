@@ -86,7 +86,7 @@ Now you need to wait for some time (seconds to minutes) before the changes are u
 
 Next, follow the instructions of the screenshot. 
 
-![How to create a post](/assets/230110_Add_New_Post.md)
+![How to create a post](/media/230110_Add_New_Post.md)
 
 Don't forget to Commit your work by entering a short description and clicking on the green *Commit Changes* button. You are done! Give GitHub a few seconds to update your site, then check on ```YourUserName.github.io``` to see your website and open the post.
 
